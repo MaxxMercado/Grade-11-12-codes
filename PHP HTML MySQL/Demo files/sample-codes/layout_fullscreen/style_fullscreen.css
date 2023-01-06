@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+#section-full{
+  background: black url('images/bg1.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+#fs-details {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+#fs-title {
+  text-align: center;
+  padding: 40px 10px;
+  background: rgba(71, 71, 71, 0.644);
+  border-radius: 3px;
+  color: #fffbfb;
+  font-size: 4em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+#fs-btn {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 3px;
+  /* border: 2px solid rgb(44, 44, 44); */
+  border: 0 solid white;
+  background: white;
+  color: rgb(39, 39, 39);
+  box-shadow: 0 3px 10px 1px #4b4b4b;
+}

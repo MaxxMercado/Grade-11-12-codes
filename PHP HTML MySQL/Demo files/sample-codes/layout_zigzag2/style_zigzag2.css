@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section {
+  
+  background-color: rebeccapurple;
+  padding: 50px;
+  display: block;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+#section1 {
+  background-color: #feac56;
+}
+
+#section2 {
+  background-color: #a155b9;
+}
+
+#section3 {
+  background-color: #f765a3;
+}
+
+.zg-parent{
+  width: 800px;
+  margin: auto;
+}
+
+.zg-left {
+  width: 300px;
+  float: left;
+}
+
+.zg-right{
+  width: 300px;
+  float: right;
+}
+
+.zg-details{
+  border-radius: 2px;
+  box-shadow: 0px 5px 10px 3px rgba(48, 42, 42, 0.178);
+  padding: 0px 30px 20px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+button{
+  border: 0 solid white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 1px rgba(221, 221, 221, 0.199);
+  font-size: .8em;
+}
