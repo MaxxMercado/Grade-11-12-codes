@@ -1,0 +1,19 @@
+.footer{
+
+    color: antiquewhite;
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.footer .footer-bottom{
+    background: black;
+
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    
+}

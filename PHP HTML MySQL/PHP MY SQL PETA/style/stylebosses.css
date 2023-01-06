@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+body{
+    background: url(../Media/test3.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: fixed;
+    background: url("../Media/test2.png");
+    width: 100%;
+    z-index: 2;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: 200px;
+    
+}
+.nav_link li a{
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+.nav_link li a:hover{
+    color: orangered;
+}
+
+.pict {
+    display: block;
+    width: 650px;
+    height: 400px;
+    border: 1px solid whitesmoke;
+    margin-top: 171px;
+    margin-left: 100px;
+    float: left;
+    color: snow;
+    border-radius: 15px;
+    overflow:hidden;
+    object-fit: cover;
+  }
+
+.pict img{
+    width: 650px;
+    height: 400px;
+}
+.pict2 {
+    padding: 10px;
+    display: block;
+    width: 900px;
+    border: 1px solid whitesmoke;
+    margin-top: 171px;
+    margin-left: 10px;
+    margin-right: 100px;
+    float: right;
+    color: snow;
+    background-color: black;
+    border-radius: 15px;
+    padding: 50px;
+
+  }
+
+ .pict2 ul {
+    list-style-position: inside;
+ }
+
+ .danger {
+    padding: 10px;
+    display: block;
+    width: 900px;
+    border: 1px solid whitesmoke;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    float: right;
+    color: snow;
+    border-radius: 15px;
+    overflow:hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    text-align: justify;
+    padding: 50px;
+  }
+
+
+  .pict5 {
+    display: block;
+    width: 650px;
+    border: 1px solid whitesmoke;
+    margin-top: 101px;
+    margin-left: 100px;
+    float: left;
+    color:snow;
+    border-radius: 15px;
+    overflow:hidden;
+    letter-spacing: 2px;
+}
+
+  .pict5 img{
+    width: 650px;
+}
+
