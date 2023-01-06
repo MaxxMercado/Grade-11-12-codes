@@ -1,0 +1,200 @@
+ *{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+   
+ /* Headers */
+.header{
+    
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -10px;
+    box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.menuheader{
+    display: flex;  
+    list-style-type: none;
+    margin-right: 27px;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Brush Script MT', sans-serif;
+   
+ }
+
+        
+.logo {
+    height: 0%;
+    width: 75px;
+    padding: -10;
+    margin-left: -100px;
+}
+
+
+/* image */
+.image1{
+   
+    display: center;
+    background-color: #090A0C;
+    padding: 5;
+    width: 50%;
+    align-items: center;
+    
+   
+}
+
+ .image2{
+
+    display: center;
+    background-color: #090A0C;
+    padding: 5;
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+}
+
+.imagelist{
+    
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    display: center;
+    background-color: #090A0C;
+    padding: 5;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.imageabout{
+    display: center;
+    background-color: #090A0C;
+    padding: 5;
+    width: 80%;
+    align-items: center;
+    
+
+}
+.imagelist:hover{
+    cursor: pointer;
+    filter: brightness(130%);
+}
+
+/* row and column */
+.column{
+    flex: 10%;  
+    padding: -5px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.row{
+    display: flex;
+    
+}
+
+/* body */
+.background{
+    background-color: white;
+    background-image: url(../media/guysword.png);
+}
+
+
+/* links */
+a{
+    color: black;
+    text-decoration: none;
+    width: 30%;
+}
+
+a:hover{
+    color:#FF4545;
+    text-decoration: underline;
+}
+
+.imagelinks{
+    display:block;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+/* fonts */
+h3{
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.aboutus{
+    margin-left: 300px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    width: 70%;
+}
+
+/* foot */
+.foot{
+    background-color: #090A0C;
+    padding: 2px; 
+    margin: 0px;
+   
+}
+
+.foottext{
+    font-size: 40px;
+    text-align: left;
+    font-style: 'Alegreya Sans', sans-serif;
+    background-color: #090A0C;
+    color: white;
+    padding: 30px; 
+}
+
+.footimage{
+    
+    background-color: #090A0C;
+    padding: 30;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+}
+
+.footlinks{
+    display: flex;
+    display:block;
+    width: 10px;
+    margin-left: 50px;
+}
+
+.aboutusimage {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 80%;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    color: #090A0C;
+    text-shadow: 2px 2px white;
+  }
+  

@@ -1,0 +1,105 @@
+body{
+    color: white;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #212121;
+    position: relative;
+}
+
+.card {
+    width: 300px;
+    height: 360px;
+    background-color: #212121;
+    box-shadow: 15px 15px 30px #191919,
+                 -15px -15px 30px #292929;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+                 transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+   }
+   
+   .card:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+    transition: all 300ms ease-in-out;
+   }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: opacity 1s forwards;
+}   
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.photo{
+    object-position: center;
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 20px;
+    
+}
+.role{
+ 
+    font-size: 10px;
+}
+.big-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+}
+
+.title{
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    animation: opacity 2s forwards;
+}
+.contacts{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 50px;
+}
+.contacts img {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+}
+.card-box{
+    height: 400px;
+}
+
+.arrow img{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    transform: rotate(180deg);
+    top: 20px;
+    left: 20px;
+   
+}
+
+.arrow{
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    animation: opacity 2s forwards;
+}
+
+.arrow:hover{
+    opacity: .5;
+}
