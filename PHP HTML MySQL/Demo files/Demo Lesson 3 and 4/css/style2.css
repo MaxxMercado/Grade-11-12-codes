@@ -1,0 +1,74 @@
+*{
+    /* font-family: fantasy; */
+    padding: 0;
+    margin: 0;
+}
+
+#Main-Header{
+
+    color: #45aaf2 ;
+    background-color: #f7b731;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid red;
+
+}   
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.bg-pink{
+    text-align: justify;
+    letter-spacing: 5px;
+    line-height: 30px;
+    background-color: violet;
+    height: 300px;
+    padding: 30px;
+    /* width: 300px; */
+}
+
+.section-b{
+    /* background-color: yellowgreen; */
+    background:no-repeat url(../media/logo.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    padding: 40px;
+    margin: 10px 50px;
+}
+
+#Footer{
+        background-color: tomato;
+        text-align: center;
+        padding: 30px;
+}
+
+ul{
+    list-style: none;    
+}
+
+li{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}
+.bg-yellow{
+    background-color: yellow;   
+    padding: 10px;
+}
+
+.color-black{
+    color: black;
+}
+.logo{
+    height: 30px;
+    margin-left: 100px;
+}

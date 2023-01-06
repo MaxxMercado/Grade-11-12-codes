@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-menu{
+    height: 80px;
+    background-color: #77a2fe;
+}
+
+#bg-image{
+    height: 100vh;
+    background: no-repeat url(media/7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* filter: grayscale(100%); */
+    /* opacity: 50%; */
+}
+
+#section-a{
+    height: 100vh;
+    padding: 30px;
+    padding-bottom: 300px;
+    /* background-color: blue; */
+    /* opacity: 0.5; */
+}
+
+.width-300px{
+    width: 300px;
+}
+
+#image-1{
+    filter: brightness(50%);
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    /* opacity: 50%; */
+}
+
+#image-1:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+#image-2{
+    filter: grayscale(90%);
+    transition: all 0.3s ease-in-out;
+}
+
+#image-2:hover{
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    transform: rotateY(360deg) scale(1.1);
+
+}
+
+#image-3{
+    filter:blur(30%);
+}
+
+
+
+.image-container{    
+    margin-bottom: 30px;
+    object-position: center;
+}
+
+.image-contain{
+   height: 300px;
+   width: 800px;
+   object-fit: cover;    
+   /* object-position: center; */
+}
+
+
+#btn{
+    cursor: pointer ;
+    border: none;
+    padding: 30px 60px;
+    background-color: #2b85e2;
+    border-radius: 50px;    
+    color: white;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    /* transform: translateX(100px) skew(-30deg); */
+    transition: 0.3s all ease-in-out;
+}
+
+#btn:hover{
+
+    background-color: #2d7193;
+    color: #f6c92c;
+    transition: 0.3s all ease-in-out;
+    transform: scale(0.7) rotateX(360deg);
+}
+
+
+
+#click{
+    margin: 30px 0;
+    padding: 20px;   
+    /* background-color: red;  */
+}
+
+.btn-link:hover{
+    background-color: #4268d5;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #45addf;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+#hidden{
+    border: none;
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+a:hover{
+    color: #4268d5;
+}
+
+a:active{
+    color:#f6c92c;
+}
+
+
+ul{
+    list-style: none;
+}
